@@ -30,4 +30,5 @@ flutter:
         pluginClass: FirebaseCrashlyticsPlugin
       ios:
         pluginClass: FirebaseCrashlyticsPlugin
-
+      macos:
+        pluginClass: FirebaseCrashlyticsPlugin
