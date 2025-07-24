@@ -19,5 +19,13 @@ dependencies:
 dev_dependencies:
   http: ^1.0.0
 
+dependency_overrides:
+  firebase_auth:
+    path: ../
+  firebase_core:
+    path: ../../../firebase_core/firebase_core
+  firebase_messaging:
+    path: ../../../firebase_messaging/firebase_messaging
+
 flutter:
   uses-material-design: true

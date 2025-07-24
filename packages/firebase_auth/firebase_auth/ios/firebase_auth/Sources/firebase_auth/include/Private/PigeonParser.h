@@ -4,11 +4,7 @@
  * BSD-style license that can be found in the LICENSE file.
  */
 
-#if TARGET_OS_OSX
-#import <FirebaseAuth/FirebaseAuth.h>
-#else
 @import FirebaseAuth;
-#endif
 
 #import <Foundation/Foundation.h>
 #import "../Public/firebase_auth_messages.g.h"
